@@ -14,6 +14,7 @@
 		46B290E02B2A056800D9094B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B290DF2B2A056800D9094B /* Assets.xcassets */; };
 		46B290E32B2A056800D9094B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B290E12B2A056800D9094B /* LaunchScreen.storyboard */; };
 		46B290E62B2A056800D9094B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B290E52B2A056800D9094B /* main.m */; };
+		46B290ED2B2A0A4000D9094B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46B290EC2B2A0A4000D9094B /* GoogleService-Info.plist */; };
 		6BC336C47831A918E419BF95 /* Pods_crashlytics_bug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906BC7984FDB759D4CF1CF70 /* Pods_crashlytics_bug.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		46B290E22B2A056800D9094B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B290E42B2A056800D9094B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46B290E52B2A056800D9094B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46B290EC2B2A0A4000D9094B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D9E452723702352255DEEFE /* Pods-crashlytics.bug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crashlytics.bug.debug.xcconfig"; path = "Target Support Files/Pods-crashlytics.bug/Pods-crashlytics.bug.debug.xcconfig"; sourceTree = "<group>"; };
 		906BC7984FDB759D4CF1CF70 /* Pods_crashlytics_bug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crashlytics_bug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E34D20DEE70EB64EC0E2CD /* Pods-crashlytics.bug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crashlytics.bug.release.xcconfig"; path = "Target Support Files/Pods-crashlytics.bug/Pods-crashlytics.bug.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		46B290C72B2A056700D9094B = {
 			isa = PBXGroup;
 			children = (
+				46B290EC2B2A0A4000D9094B /* GoogleService-Info.plist */,
 				46B290D22B2A056700D9094B /* crashlytics.bug */,
 				46B290D12B2A056700D9094B /* Products */,
 				D8EF8CF1C208F3BDC0033852 /* Pods */,
@@ -97,7 +100,6 @@
 				7D9E452723702352255DEEFE /* Pods-crashlytics.bug.debug.xcconfig */,
 				A1E34D20DEE70EB64EC0E2CD /* Pods-crashlytics.bug.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46B290E32B2A056800D9094B /* LaunchScreen.storyboard in Resources */,
+				46B290ED2B2A0A4000D9094B /* GoogleService-Info.plist in Resources */,
 				46B290E02B2A056800D9094B /* Assets.xcassets in Resources */,
 				46B290DE2B2A056700D9094B /* Main.storyboard in Resources */,
 			);
