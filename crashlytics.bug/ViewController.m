@@ -19,7 +19,7 @@
   // Do any additional setup after loading the view.
 }
 
-- (IBAction)press:(id)sender {
+- (IBAction)nonfatalcrash:(id)sender {
   FIRExceptionModel *exception = [FIRExceptionModel exceptionModelWithName:@"FlutterError"
                                                                     reason:@"a non fatal issue"];
   [[FIRCrashlytics crashlytics] recordExceptionModel:exception];
